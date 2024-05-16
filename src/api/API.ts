@@ -3,7 +3,7 @@ import {EventType} from "../types/types.ts";
 import { SetStateAction } from "react";
 
 const instance = axios.create({
-    baseURL: 'http://localhost:5000/events'
+    baseURL: 'https://sfu-timetable-server.vercel.app/events'
 })
 
 export const API = {
